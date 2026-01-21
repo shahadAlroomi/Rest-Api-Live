@@ -1,9 +1,10 @@
-GET http://localhost:5000/users
+GET http://localhost:5000/users/localhost:5000/users/register
 
 ####
-POST http://localhost:5000/users
+POST http://localhost:5000/users/register
 Content-Type: application/json
 
 {
-  "Name": "Elin"
+  "Name": "Noah",
+  "Password": "password123"
 }
